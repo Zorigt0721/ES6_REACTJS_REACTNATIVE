@@ -1,12 +1,12 @@
 # MODULE1
 
-1. Your JavaScript file /*Zorigt/
-2. Preparing your text editor /*Zorigt/
-3. The console /*Zorigt/
-4. Comments /*Zorigt/
-5. You don't need semicolons
-6. Strings, numbers, and booleans
-7. Declaring variables
+1. Your JavaScript file /*Zorigt/ -done
+2. Preparing your text editor /*Zorigt/ -done
+3. The console /*Zorigt/ -done
+4. Comments /*Zorigt/ -done
+5. You don't need semicolons /*P.Anujin, Temuulen/
+6. Strings, numbers, and booleans /*P.Anujin, Temuulen/
+7. Declaring variables /*P.Anujin, Temuulen/
 8. Functions
 9. Arrow functions
 10. Intro to objects
