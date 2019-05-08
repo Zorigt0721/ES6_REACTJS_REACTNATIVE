@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eee;
+}
+.big-header {
+    background-color: #0984e3;
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+h1 {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+ol {
+    color:#0984e3;
+}
