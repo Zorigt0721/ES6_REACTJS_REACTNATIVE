@@ -1,0 +1,77 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #6c5ce7;
+}
+.calculator{
+    width: 350px;
+    height: 550px;
+    background-color: #dfe6e9;
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0.5), 0 6px 20px 0 rgba(255, 255, 255, 0.5);
+}
+.result {
+    height: 120px;
+}
+.keyboards{
+    height: 400px;
+}
+.history{
+    text-align: right;
+    height: 20px;
+    margin:0 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    color: #919191;
+}
+.output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 32px;
+}
+.operator, .number, .empty{
+    width: 55px;
+    height: 55px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.number, .empty{
+    background-color: #dfe6e9;
+    font-size: 24px;
+}
+.number, .operator{
+    cursor: pointer; /* daragdahaaraa huruu bolno*/
+}
+.operator:active, .number:active{
+    font-size: 15px; /* daragdahaaraa jijigreh chineenii*/
+}
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0; /* daragdahaaraa jijigreh chineenii*/
+}
+/* operatoruudiig ongiig ni oorchloh gej baina tegehiin tuld child ashiglalaa*/
+button:nth-child(4){
+    font-size: 24px;
+    background-color: #e84393;
+}
+button:nth-child(8){
+    font-size: 24px;
+    background-color: #d63031;
+}
+button:nth-child(12){
+    font-size: 24px;
+    background-color: #e17055;
+}
+button:nth-child(16){
+    font-size: 24px;
+    background-color: #fdcb6e;
+}
+button:nth-child(20){
+    font-size: 24px;
+    background-color: #00b894;
+}
