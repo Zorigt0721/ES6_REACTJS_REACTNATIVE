@@ -1,0 +1,55 @@
+body{
+    background-color: #5352ed;
+}
+.jumbotron{
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+}
+.Login{
+    background-image: url(login.jpg);
+    position: relative;
+    width: 350px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.block{
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url(back.jpg);
+    position: relative;
+    border: 1px solid black;
+    height: 50px;
+}
+.position{
+    position: absolute;
+    right: 20px;
+}
+.AgeVerification{
+    margin: 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+.log{
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    color: white;
+}
+.but{
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    background-color: #95afc0;
+}
+.but2{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    background-color: #95afc0;
+}
